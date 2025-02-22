@@ -281,12 +281,12 @@ body {
 .firework:nth-child(2) { background: #4eb94e; top: 40%; left: 60%; animation-delay: 0.5s; }
 .firework:nth-child(3) { background: #7575ea; top: 60%; left: 40%; animation-delay: 1s; }
 .firework:nth-child(4) { background: #dddd4f; top: 80%; left: 80%; animation-delay: 1.5s; }
-.firework:nth-child(5) { background: #ff00ff; top: 30%; left: 70%; animation-delay: 0.7s; }
-.firework:nth-child(6) { background: #00ffff; top: 70%; left: 30%; animation-delay: 1.2s; }
+.firework:nth-child(5) { background: #bf6abf; top: 30%; left: 70%; animation-delay: 0.7s; }
+.firework:nth-child(6) { background: #6dbebe; top: 70%; left: 30%; animation-delay: 1.2s; }
 .firework:nth-child(7) { background: #ff8c00; top: 25%; left: 45%; animation-delay: 0.3s; }
 .firework:nth-child(8) { background: #9400d3; top: 75%; left: 55%; animation-delay: 0.9s; }
-.firework:nth-child(9) { background: #00ff7f; top: 45%; left: 25%; animation-delay: 1.7s; }
-.firework:nth-child(10) { background: #ff1493; top: 55%; left: 75%; animation-delay: 0.2s; }
+.firework:nth-child(9) { background: #2e915f; top: 45%; left: 25%; animation-delay: 1.7s; }
+.firework:nth-child(10){ background: #d099b6; top: 55%; left: 75%; animation-delay: 0.2s; }
 
 @keyframes firework-explode {
   0% {
@@ -392,6 +392,9 @@ body {
 
 /* Landscape mode adjustments */
 @media screen and (max-width: 926px) and (orientation: landscape) {
+  body {
+    background: linear-gradient(135deg, #2c1e26, #1a1116);
+  }
   .birthday-card {
     margin-bottom: 10%;
     transform: scale(0.8);
@@ -426,7 +429,7 @@ body {
 }
 
 /* Tablet adjustments for better scaling */
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) and (prefers-color-scheme: dark) {
   .birthday-card {
     width: 70%;
     max-width: 500px;
