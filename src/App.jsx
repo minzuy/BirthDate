@@ -39,7 +39,7 @@ function App() {
       </div>
 
       <div className="birthday-card">
-        <h1>Chúc mừng sinh nhật</h1>
+        <h1>Chúc mừng sinh nhật !</h1>
         <h2>Happy Birthday !</h2>
       </div>
 
