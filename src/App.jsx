@@ -39,7 +39,7 @@ function App() {
       </div>
 
       <div className="birthday-card">
-        <h1>Chúc mừng sinh nhật !</h1>
+        <h1>Chúc bố sinh nhật vui vẻ !</h1>
         <h2>Happy Birthday !</h2>
       </div>
 
@@ -65,6 +65,7 @@ function App() {
         <div className="layer layer5"></div>
         <div className="candle"></div>
         <div className="flame"></div>
+        <div className="flame-reflection"></div>
       </div>
 
       <div className="fireworks">
