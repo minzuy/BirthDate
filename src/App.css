@@ -386,10 +386,11 @@ body {
   }
   .birthday-card h2 {
     font-size: 2rem;
-    margin-bottom: 20%;
+    padding: 5%;
   }
 
   .cake {
+    margin-top: 5%;
     width: 160px;
     height: 200px;
     bottom: 15%;
