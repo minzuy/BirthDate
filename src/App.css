@@ -383,6 +383,7 @@ body {
 
   .birthday-card h1, .birthday-card h2 {
     font-size: 2rem;
+    margin-bottom: 20%;
   }
 
   .cake {
