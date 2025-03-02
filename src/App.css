@@ -382,11 +382,10 @@ body {
   }
 
   .birthday-card h1, .birthday-card h2 {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
   }
   .birthday-card h2 {
-    font-size: 1.7rem;
-    padding: 5%;
+    padding-bottom: 5%;
   }
 
   .cake {
