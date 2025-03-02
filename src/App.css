@@ -3,12 +3,14 @@ body {
   padding: 0;
   overflow: hidden;
   font-family: 'Arial', sans-serif;
-  background: linear-gradient(135deg, #ffdde1, #ee9ca7);
+  background: linear-gradient(135deg, #1a1a1a, #333);
+  color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
 }
+
 
 .birthday-card {
   text-align: center;
@@ -374,13 +376,13 @@ body {
 /* Responsive cho iPhone 11 (375x812) */
 @media screen and (max-width: 428px) {
   .birthday-card {
-    width: 85%;
+    width: 90%;
     padding: 15px;
-    margin-bottom: 15%;
+    margin-bottom: 10%;
   }
 
   .birthday-card h1, .birthday-card h2 {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 
   .cake {
