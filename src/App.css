@@ -383,6 +383,9 @@ body {
 
   .birthday-card h1, .birthday-card h2 {
     font-size: 2rem;
+  }
+  .birthday-card h2 {
+    font-size: 2rem;
     margin-bottom: 20%;
   }
 
