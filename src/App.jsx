@@ -40,7 +40,7 @@ function App() {
 
       <div className="birthday-card">
         <h1>Chúc bố sinh nhật vui vẻ !</h1>
-        <h2>Happy Birthday !</h2>
+        <h2>Happy Birthday !!!</h2>
       </div>
 
       <div className="balloon-cluster">
